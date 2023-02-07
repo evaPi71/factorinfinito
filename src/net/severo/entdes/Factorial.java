@@ -7,14 +7,15 @@ package net.severo.entdes;
 public class Factorial {
 
 	public static void main(String[] args) {
-
+		
+		fianl String cadena="Value of n!: ";
 		int n = (int) (Math.random() * 10);
 		int result = 1;
 		System.out.println("Value of n: " + n);
 		while (n > 1) {
 			result = result * (n - 1);
 		}
-		System.out.println("Value of n!: " + result);
+		System.out.println(cadena + result);
 
 	}
 
